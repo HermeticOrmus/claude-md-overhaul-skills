@@ -1,0 +1,18 @@
+---
+description: Audit Claude Code memory layer. CLAUDE.md ≤ 200 lines, MEMORY.md ≤ 200 lines or 25 KB. Trim periodically.
+alwaysApply: false
+---
+
+# Memory layer audit
+
+## Caps
+
+- Any CLAUDE.md: 200 lines (adherence drops past this)
+- MEMORY.md: 200 lines OR 25 KB (past that is invisible at session start)
+
+## Discipline
+
+- One-line entries in MEMORY.md; detail in linked topic files
+- Skill descriptions answer WHEN, not WHAT
+- Resolve sync-conflict files manually
+- Periodic audit (~monthly)
